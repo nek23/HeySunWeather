@@ -3,27 +3,47 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04C7DEECBE2D73C0F9F847E3 /* Pods_HeySun.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05549E9708032EC4B1A3FACA /* Pods_HeySun.framework */; };
+		FA78079E23AC234900FAABF6 /* Montserrat-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FA78079D23AC234900FAABF6 /* Montserrat-Light.ttf */; };
+		FA7807A023AC23DD00FAABF6 /* Rubik-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FA78079F23AC23DD00FAABF6 /* Rubik-Light.ttf */; };
 		FAC62DDB23ABBF7800897A3C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC62DDA23ABBF7800897A3C /* AppDelegate.swift */; };
-		FAC62DDD23ABBF7800897A3C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC62DDC23ABBF7800897A3C /* SceneDelegate.swift */; };
-		FAC62DDF23ABBF7800897A3C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC62DDE23ABBF7800897A3C /* ViewController.swift */; };
 		FAC62DE223ABBF7800897A3C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAC62DE023ABBF7800897A3C /* Main.storyboard */; };
 		FAC62DE423ABBF7A00897A3C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAC62DE323ABBF7A00897A3C /* Assets.xcassets */; };
 		FAC62DE723ABBF7A00897A3C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAC62DE523ABBF7A00897A3C /* LaunchScreen.storyboard */; };
+		FAC62DF323ABC21300897A3C /* HourlyTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC62DF223ABC21300897A3C /* HourlyTableViewController.swift */; };
+		FAC62DF523ABC23C00897A3C /* HourlyTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAC62DF423ABC23C00897A3C /* HourlyTableViewCell.xib */; };
+		FAC62DF923ABC35F00897A3C /* Rubik-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FAC62DF723ABC35F00897A3C /* Rubik-Regular.ttf */; };
+		FAC62DFA23ABC35F00897A3C /* Rubik-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FAC62DF823ABC35F00897A3C /* Rubik-Medium.ttf */; };
+		FAC62DFC23ABDD1C00897A3C /* HourlyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC62DFB23ABDD1C00897A3C /* HourlyTableViewCell.swift */; };
+		FACCCD0523ABDE0C00E85A4F /* WeatherManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACCCD0423ABDE0C00E85A4F /* WeatherManager.swift */; };
+		FACCCD0823ABDE5E00E85A4F /* HourlyWeather.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACCCD0723ABDE5E00E85A4F /* HourlyWeather.swift */; };
+		FACCCD0B23ABDE6D00E85A4F /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACCCD0A23ABDE6D00E85A4F /* ViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		05549E9708032EC4B1A3FACA /* Pods_HeySun.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HeySun.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8909CB28F17E217063E1FF1B /* Pods-HeySun.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HeySun.debug.xcconfig"; path = "Target Support Files/Pods-HeySun/Pods-HeySun.debug.xcconfig"; sourceTree = "<group>"; };
+		C6CE1341926385DDBD31937D /* Pods-HeySun.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HeySun.release.xcconfig"; path = "Target Support Files/Pods-HeySun/Pods-HeySun.release.xcconfig"; sourceTree = "<group>"; };
+		FA78079D23AC234900FAABF6 /* Montserrat-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Light.ttf"; sourceTree = "<group>"; };
+		FA78079F23AC23DD00FAABF6 /* Rubik-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Light.ttf"; sourceTree = "<group>"; };
 		FAC62DD723ABBF7800897A3C /* HeySun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HeySun.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAC62DDA23ABBF7800897A3C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FAC62DDC23ABBF7800897A3C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		FAC62DDE23ABBF7800897A3C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		FAC62DE123ABBF7800897A3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FAC62DE323ABBF7A00897A3C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FAC62DE623ABBF7A00897A3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FAC62DE823ABBF7A00897A3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAC62DF223ABC21300897A3C /* HourlyTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HourlyTableViewController.swift; sourceTree = "<group>"; };
+		FAC62DF423ABC23C00897A3C /* HourlyTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HourlyTableViewCell.xib; sourceTree = "<group>"; };
+		FAC62DF723ABC35F00897A3C /* Rubik-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Regular.ttf"; sourceTree = "<group>"; };
+		FAC62DF823ABC35F00897A3C /* Rubik-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Medium.ttf"; sourceTree = "<group>"; };
+		FAC62DFB23ABDD1C00897A3C /* HourlyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HourlyTableViewCell.swift; sourceTree = "<group>"; };
+		FACCCD0423ABDE0C00E85A4F /* WeatherManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherManager.swift; sourceTree = "<group>"; };
+		FACCCD0723ABDE5E00E85A4F /* HourlyWeather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HourlyWeather.swift; sourceTree = "<group>"; };
+		FACCCD0A23ABDE6D00E85A4F /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +51,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04C7DEECBE2D73C0F9F847E3 /* Pods_HeySun.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3CE9398B180C57DFFF22373A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8909CB28F17E217063E1FF1B /* Pods-HeySun.debug.xcconfig */,
+				C6CE1341926385DDBD31937D /* Pods-HeySun.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		DBF30771FF455D5396888BAF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				05549E9708032EC4B1A3FACA /* Pods_HeySun.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		FAC62DCE23ABBF7800897A3C = {
 			isa = PBXGroup;
 			children = (
 				FAC62DD923ABBF7800897A3C /* HeySun */,
 				FAC62DD823ABBF7800897A3C /* Products */,
+				3CE9398B180C57DFFF22373A /* Pods */,
+				DBF30771FF455D5396888BAF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +96,71 @@
 		FAC62DD923ABBF7800897A3C /* HeySun */ = {
 			isa = PBXGroup;
 			children = (
+				FACCCD0923ABDE6100E85A4F /* ViewModel */,
+				FACCCD0623ABDE4900E85A4F /* Model */,
+				FACCCD0323ABDDF600E85A4F /* Managers */,
+				FAC62DF623ABC34600897A3C /* Fonts */,
+				FAC62DEF23ABC0B900897A3C /* Storyboard */,
+				FAC62DEE23ABC07900897A3C /* Controllers */,
 				FAC62DDA23ABBF7800897A3C /* AppDelegate.swift */,
-				FAC62DDC23ABBF7800897A3C /* SceneDelegate.swift */,
-				FAC62DDE23ABBF7800897A3C /* ViewController.swift */,
-				FAC62DE023ABBF7800897A3C /* Main.storyboard */,
 				FAC62DE323ABBF7A00897A3C /* Assets.xcassets */,
 				FAC62DE523ABBF7A00897A3C /* LaunchScreen.storyboard */,
 				FAC62DE823ABBF7A00897A3C /* Info.plist */,
 			);
 			path = HeySun;
+			sourceTree = "<group>";
+		};
+		FAC62DEE23ABC07900897A3C /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				FAC62DF223ABC21300897A3C /* HourlyTableViewController.swift */,
+				FAC62DFB23ABDD1C00897A3C /* HourlyTableViewCell.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		FAC62DEF23ABC0B900897A3C /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				FAC62DE023ABBF7800897A3C /* Main.storyboard */,
+				FAC62DF423ABC23C00897A3C /* HourlyTableViewCell.xib */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		FAC62DF623ABC34600897A3C /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				FA78079F23AC23DD00FAABF6 /* Rubik-Light.ttf */,
+				FA78079D23AC234900FAABF6 /* Montserrat-Light.ttf */,
+				FAC62DF823ABC35F00897A3C /* Rubik-Medium.ttf */,
+				FAC62DF723ABC35F00897A3C /* Rubik-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		FACCCD0323ABDDF600E85A4F /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				FACCCD0423ABDE0C00E85A4F /* WeatherManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		FACCCD0623ABDE4900E85A4F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FACCCD0723ABDE5E00E85A4F /* HourlyWeather.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FACCCD0923ABDE6100E85A4F /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				FACCCD0A23ABDE6D00E85A4F /* ViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +170,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FAC62DEB23ABBF7A00897A3C /* Build configuration list for PBXNativeTarget "HeySun" */;
 			buildPhases = (
+				1638A5018E5033A33EE14F02 /* [CP] Check Pods Manifest.lock */,
 				FAC62DD323ABBF7800897A3C /* Sources */,
 				FAC62DD423ABBF7800897A3C /* Frameworks */,
 				FAC62DD523ABBF7800897A3C /* Resources */,
+				442E4F23038B23C27481548D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,22 +223,72 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA78079E23AC234900FAABF6 /* Montserrat-Light.ttf in Resources */,
 				FAC62DE723ABBF7A00897A3C /* LaunchScreen.storyboard in Resources */,
 				FAC62DE423ABBF7A00897A3C /* Assets.xcassets in Resources */,
+				FAC62DF523ABC23C00897A3C /* HourlyTableViewCell.xib in Resources */,
+				FAC62DFA23ABC35F00897A3C /* Rubik-Medium.ttf in Resources */,
+				FA7807A023AC23DD00FAABF6 /* Rubik-Light.ttf in Resources */,
+				FAC62DF923ABC35F00897A3C /* Rubik-Regular.ttf in Resources */,
 				FAC62DE223ABBF7800897A3C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1638A5018E5033A33EE14F02 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HeySun-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		442E4F23038B23C27481548D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HeySun/Pods-HeySun-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HeySun/Pods-HeySun-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HeySun/Pods-HeySun-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		FAC62DD323ABBF7800897A3C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FAC62DDF23ABBF7800897A3C /* ViewController.swift in Sources */,
+				FAC62DF323ABC21300897A3C /* HourlyTableViewController.swift in Sources */,
 				FAC62DDB23ABBF7800897A3C /* AppDelegate.swift in Sources */,
-				FAC62DDD23ABBF7800897A3C /* SceneDelegate.swift in Sources */,
+				FACCCD0523ABDE0C00E85A4F /* WeatherManager.swift in Sources */,
+				FACCCD0823ABDE5E00E85A4F /* HourlyWeather.swift in Sources */,
+				FAC62DFC23ABDD1C00897A3C /* HourlyTableViewCell.swift in Sources */,
+				FACCCD0B23ABDE6D00E85A4F /* ViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,11 +430,13 @@
 		};
 		FAC62DEC23ABBF7A00897A3C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8909CB28F17E217063E1FF1B /* Pods-HeySun.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = FPTKYV2CX5;
 				INFOPLIST_FILE = HeySun/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -294,17 +444,19 @@
 				PRODUCT_BUNDLE_IDENTIFIER = alex.kaliev.HeySun;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		FAC62DED23ABBF7A00897A3C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C6CE1341926385DDBD31937D /* Pods-HeySun.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = FPTKYV2CX5;
 				INFOPLIST_FILE = HeySun/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -312,7 +464,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = alex.kaliev.HeySun;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
